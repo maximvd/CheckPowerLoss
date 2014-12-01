@@ -8,7 +8,7 @@
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: Check for (un)gracefull shutdown on boot
-# Description:       This script check if the previous shutdown was intented thus not by a loss of mains.
+# Description:       This script checks if the previous shutdown was intented thus not by a loss of mains.
 ### END INIT INFO
 
 NORMALSHUTDOWN="/etc/normalshutdown" # The path where a file will be created when shutting down the system
